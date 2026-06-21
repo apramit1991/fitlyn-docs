@@ -17,3 +17,5 @@ mkdocs serve
 ## Publishing
 
 Changes merged into `main` are built and published through GitHub Pages.
+Follow [CONTRIBUTING.md](CONTRIBUTING.md) for the update and safety-review
+process.
