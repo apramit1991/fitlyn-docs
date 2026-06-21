@@ -1,0 +1,59 @@
+site_name: Fitlyn Help Center
+site_description: User guides for managing a gym with Fitlyn
+site_url: https://apramit1991.github.io/fitlyn-docs/
+repo_url: https://github.com/apramit1991/fitlyn-docs
+repo_name: apramit1991/fitlyn-docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Start here: getting-started/index.md
+      - Roles and access: getting-started/roles.md
+  - Daily operations:
+      - Dashboard: guides/dashboard.md
+      - Members: guides/members.md
+      - Plans and memberships: guides/memberships.md
+      - Payments and invoices: guides/payments.md
+      - Attendance: guides/attendance.md
+      - Leads: guides/leads.md
+      - Communication: guides/communication.md
+      - Reports: guides/reports.md
+  - Help:
+      - Frequently asked questions: help/faq.md
+      - Privacy and safe support: help/privacy.md
+
+copyright: Copyright &copy; 2026 Fitlyn
+
